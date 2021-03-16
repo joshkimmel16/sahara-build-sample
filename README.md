@@ -12,7 +12,18 @@ In this sample, we have an Arduino program that uses both a standard Arduino lib
 
 To build this project via Sahara, modify the file code.yaml in your project as follows:
 ```
-
+buildPath: multi_c_sample
+target:
+    platform: arduino
+    specs:
+        name: multi_c_sample
+        boardTag: micro
+systemLibs:
+    - Mouse
+userLibs:
+    - packet
+projId: [id_of_project]
+        
 ```
 
 ## Authors
