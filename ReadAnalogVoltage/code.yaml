@@ -1,0 +1,9 @@
+buildPath: ReadAnalogVoltage
+target:
+    platform: arduino
+    specs:
+        name: ReadAnalogVoltage
+        boardTag: micro
+systemLibs: []
+userLibs: []
+projId: [id_of_project]

@@ -1,0 +1,9 @@
+buildPath: AnalogReadSerial
+target:
+    platform: arduino
+    specs:
+        name: AnalogReadSerial
+        boardTag: micro
+systemLibs: []
+userLibs: []
+projId: [id_of_project]

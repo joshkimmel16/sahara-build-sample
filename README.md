@@ -26,6 +26,29 @@ projId: [id_of_project]
         
 ```
 
+### Arduino Basic Examples
+
+The following subfolders correspond exactly to basic examples listed on the official Arduino website:
+* [AnalogReadSerial](https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial)
+* [DigitalReadSerial](https://www.arduino.cc/en/Tutorial/BuiltInExamples/DigitalReadSerial)
+* [Fade](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Fade)
+* [ReadAnalogVoltage](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ReadAnalogVoltage)
+* [SimpleBlink](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink)
+
+To build these projects via Sahara, modify the file code.yaml in your project as follows:
+```
+buildPath: [name_of_example]
+target:
+    platform: arduino
+    specs:
+        name: [name_of_example]
+        boardTag: micro
+systemLibs: []
+userLibs: []
+projId: [id_of_project]
+        
+```
+
 ## Authors
 
 * **Josh Kimmel**

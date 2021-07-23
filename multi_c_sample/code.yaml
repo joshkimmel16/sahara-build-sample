@@ -1,0 +1,11 @@
+buildPath: multi_c_sample
+target:
+    platform: arduino
+    specs:
+        name: multi_c_sample
+        boardTag: micro
+systemLibs:
+    - Mouse
+userLibs:
+    - packet
+projId: [id_of_project]

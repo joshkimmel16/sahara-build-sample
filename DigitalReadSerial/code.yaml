@@ -1,0 +1,9 @@
+buildPath: DigitalReadSerial
+target:
+    platform: arduino
+    specs:
+        name: DigitalReadSerial
+        boardTag: micro
+systemLibs: []
+userLibs: []
+projId: [id_of_project]

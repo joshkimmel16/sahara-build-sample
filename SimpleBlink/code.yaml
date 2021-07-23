@@ -1,0 +1,9 @@
+buildPath: SimpleBlink
+target:
+    platform: arduino
+    specs:
+        name: SimpleBlink
+        boardTag: micro
+systemLibs: []
+userLibs: []
+projId: [id_of_project]

@@ -1,0 +1,9 @@
+buildPath: Fade
+target:
+    platform: arduino
+    specs:
+        name: Fade
+        boardTag: micro
+systemLibs: []
+userLibs: []
+projId: [id_of_project]
